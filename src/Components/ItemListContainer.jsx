@@ -6,10 +6,6 @@ import Card from 'react-bootstrap/Card';
 import { Link, useParams } from 'react-router-dom';
 
     
-
-
-
-
 // eslint-disable-next-line react/prop-types
 export const ItemListContainer = () => {
     const [items, setItems] = useState ([]);
