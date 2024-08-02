@@ -1,0 +1,55 @@
+[
+     {
+        "name": "Mouse Logitech G Pro",
+        "id": 1,
+        "category":"mouse",
+        "detail":"",
+        "img": "https://media.spdigital.cl/thumbnails/products/sdzf_epi_414a236b_thumbnail_256.jpg"
+        
+      },
+
+
+
+      {
+        "name": "Monitor Gamer LG UltraGear",
+        "id": 2,
+        "category":"monitor",
+        "detail":"",
+        "img": "https://media.spdigital.cl/thumbnails/products/_2tv9172_9607819a_thumbnail_256.jpg"
+        
+      },
+
+
+
+      {
+        "name": "Notebook Gamer Gigabyte",
+        "id": 3,
+        "category":"notebook",
+        "detail":"",
+        "img": "https://media.spdigital.cl/thumbnails/products/zca6x6bi_5d72a2b9_thumbnail_256.png"
+        
+      },
+
+
+
+
+      {
+        "name": "PC Gamer SP Labs Knight",
+        "id": 4,
+        "category":"pc gamer",
+        "detail":"",
+        "img":"https://media.spdigital.cl/thumbnails/products/jk168nd5_e69ed02c_thumbnail_256.png"
+        
+      }
+    	
+
+
+
+
+
+
+
+
+
+
+]
