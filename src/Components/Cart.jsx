@@ -6,7 +6,7 @@ const initialValues = {
     phone: "",
     email: "",
     name:""
-};
+}; 
 
 export const Cart = () => {
     const [buyer, setBuyer] = useState(initialValues);
@@ -18,7 +18,7 @@ export const Cart = () => {
             {items.length === 0 ? (
                 <p>No hay productos en el carrito</p>
             ) : (
-                items.map((i) => (
+                items?.map((i) => (
                     <div key={i.id}>
                         <h1>{i.title}</h1>
                         <h2>{i.price}</h2>

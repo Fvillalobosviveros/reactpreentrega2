@@ -2,7 +2,6 @@ import { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getFirestore, getDoc, doc, count } from 'firebase/firestore';
 import Container from 'react-bootstrap/Container';
-
 import { ItemsContext } from '../Context/ItemsContext';
 import { ItemCount } from './ItemCount';
 

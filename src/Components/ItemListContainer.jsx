@@ -11,6 +11,7 @@ import Container from 'react-bootstrap/Container';
 /* import data from '../data/Products.json'; */
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import './ItemListContainer.css'
 
 
     
@@ -27,7 +28,7 @@ export const ItemListContainer = () => {
 
       const refCollection = !id 
       ? collection (db, "items") 
-      : query(collection(db, "items"), where("categoryId", "==", id ));
+      : query(collection(db, "items"), where("categoryid", "==", id ));
 
         getDocs(refCollection)
           .then((snapshot) => {
